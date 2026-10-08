@@ -1,0 +1,24 @@
+# never commit routing config or credentials
+routes*.json
+*.env
+.env*
+test-event*.json
+event*.json
+
+# never commit captured traffic or real alert emails
+*.mp3
+*.wav
+fixtures/real/
+samples/real/
+
+# python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+function.zip
+
+# editors / os
+.vscode/
+.idea/
+.DS_Store
